@@ -12,7 +12,41 @@ h1   {color: rgb(66,229,149);
     font-size: 560%;
     text-shadow: 4px 4px black;
     text-align: center;}
+h2   {
+    color: white;
+    font-family: gagalin;
+    font-size: 260%;
+    text-align: center;
+}
 p    {color: white;
+}
+div{
+    color: white;
+    font-family: gagalin;
+    font-size: 160%;
+    text-align: center;
+}
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+.column {
+    flex: 20%;
+    padding: 5px;
+}
+#avatar{
+        border-radius: 50%;
+}
+#rulelist{
+    font-family: gagalin;
+    font-size: 250%;
+    color: white;
+}
+#ruledesc{
+    font-family: gagalin;
+    font-size: 50%;
+    color: white;
 }
 /* Navbar */
 #navbar {
@@ -36,4 +70,16 @@ p    {color: white;
 #navbar a.active {
   background-color: rgb(66,229,149);
   color: rgb(159,1,255);
+}
+/* sticky nav bar */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.content {
+ padding: 16px;
+}
+.sticky + .content {
+    padding-top: 60px;
 }
