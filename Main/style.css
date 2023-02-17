@@ -1,0 +1,39 @@
+@font-face {
+    font-family: fantasy;
+    src: url(fonts/Gagalin-Regular.ttf);
+    font-family: gagalin;
+}
+
+body {background-color: black;
+    font-family: gagalin;}
+h1   {color: rgb(66,229,149);
+    background-color: rgb(159,1,255);
+    font-family: gagalin;
+    font-size: 560%;
+    text-shadow: 4px 4px black;
+    text-align: center;}
+p    {color: white;
+}
+/* Navbar */
+#navbar {
+  overflow: hidden;
+  background-color: rgb(159,1,255);
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding:  16px;
+  text-decoration: none;
+  text-shadow: 4px 2px black;
+  font-size: 24px;
+}
+#navbar a:hover {
+  background-color: rgb(66,229,149);
+  color: rgb(159,1,255);
+}
+#navbar a.active {
+  background-color: rgb(66,229,149);
+  color: rgb(159,1,255);
+}
