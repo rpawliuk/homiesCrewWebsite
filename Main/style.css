@@ -41,13 +41,27 @@ form{
 }
 
 
+.polaroid a{
+  background: rgb(159,1,255);
+  display: inline-block;
+  margin: 10% 10% 30%;
+  padding: 5% 5% 20%;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 20px #42e595;
+
+}
+.polaroid img {
+  display: block;
+  width: 200%;
+}
 .row {
     display: flex;
   }
   
   /* Create three equal columns that sits next to each other */
 .column {
-    flex: 20%;
+    flex: 30%;
     padding: 5px;
 }
 #avatar{
