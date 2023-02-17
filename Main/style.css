@@ -7,10 +7,12 @@
 body {background-color: black;
     font-family: gagalin;}
 h1   {color: rgb(66,229,149);
+    letter-spacing: 5px;
     background-color: rgb(159,1,255);
     font-family: gagalin;
     font-size: 560%;
-    text-shadow: 4px 4px black;
+    text-shadow: 2px 2px rgb(255, 82, 111), 6px 6px black;
+    /* text-shadow: 4px 4px rgb(255, 88, 116); */
     text-align: center;}
 h2   {
     color: white;
