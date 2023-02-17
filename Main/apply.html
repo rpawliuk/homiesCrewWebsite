@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Homes Crew</title>
+<title>Homies Crew</title>
 <head>
 
 <!-- CSS Styling -->
 <style>
-body {background-color: rgb(68, 68, 68);}
+body {background-color: black;
+    font-family: fantasy;}
 h1   {color: white;
     font-family: fantasy;
     font-size: 460%;
     text-align: center;}
-p    {color: rgb(228, 228, 228);
-    border: 2px solid grey;
-    padding: 30px;
+h2   {color: white;
+    font-family: fantasy;
+    font-size: 360%;
+    text-align: center;}
+p    {color: white;
 }
+/* Navbar */
 #navbar {
   overflow: hidden;
   background-color: #333;
@@ -22,53 +26,42 @@ p    {color: rgb(228, 228, 228);
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#navbar a.active {
-  background-color: #04AA6D;
   color: white;
+  text-align: center;
+  padding:  16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+#navbar a:hover {
+  background-color: rgb(66,229,149);
+  color: rgb(159,1,255);
+}
+#navbar a.active {
+  background-color: rgb(66,229,149);
+  color: rgb(159,1,255);
 }
 
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
 </style>
 </head>
 
-
-
 <body>
-<!-- Headings -->
-<h1 title="Highrise crew"><b>Apply to Homies Crew</b></h1>
+    <!-- Headings -->
+    <h1 title="Highrise crew"><b>Homies Crew</b></h1>
+    <p style="text-align:center"><img src="hclogo.jpg" alt="HR Crew Logo" width="150"> </p>
+    
+    <!-- Navbar -->
+    <div id="navbar">
+      <a href="main.html">Home</a>
+      <a class="active" href="apply.html">Apply</a>
+      <a href="photos.html">Photos</a>
+      <a href="members.html">Members</a>
+    </div>
+
+    <h2>Want to apply?</h2>
+    <p>Please message one of our founders with the following information: </p>
+    <p>Highrise username:</p>
 
 
-<div id="navbar">
-  <a class="active" href="main.html">Home</a>
-  <a href="apply.html">Want to apply?</a>
-  <a href="photos.html">Photos</a>
-</div>
-
-=
-
+    <p><a href="https://highrise.game/">Visit Highrise</a></p>
 </body>
 </html>
