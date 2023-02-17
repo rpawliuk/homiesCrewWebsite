@@ -39,6 +39,8 @@ form{
     font-size: 160%;
     
 }
+
+
 .row {
     display: flex;
   }
@@ -55,11 +57,10 @@ form{
     font-family: gagalin;
     font-size: 250%;
     color: rgb(159,1,255);
+    text-shadow: 1px 1px #42e595;
 }
 #ruledesc{
-    font-family: gagalin;
     font-size: 50%;
-    color: rgb(159,1,255);
 }
 /* Navbar */
 #navbar {
