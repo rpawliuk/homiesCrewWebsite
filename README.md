@@ -10,3 +10,4 @@ Includes:
 
 TODO:
 - add all member pictures
+- finish application page
